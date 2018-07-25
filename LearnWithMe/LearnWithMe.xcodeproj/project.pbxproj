@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		395E6B752108ECBA00B75D37 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E6B742108ECBA00B75D37 /* FormViewController.swift */; };
+		395E6B772108ED8900B75D37 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E6B762108ED8900B75D37 /* InviteViewController.swift */; };
 		39BB9A4B210640D100376217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB9A4A210640D100376217 /* AppDelegate.swift */; };
 		39BB9A4D210640D100376217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB9A4C210640D100376217 /* ViewController.swift */; };
 		39BB9A50210640D100376217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB9A4E210640D100376217 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		395E6B742108ECBA00B75D37 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		395E6B762108ED8900B75D37 /* InviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
 		39BB9A47210640D100376217 /* LearnWithMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnWithMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB9A4A210640D100376217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39BB9A4C210640D100376217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				39BB9A4C210640D100376217 /* ViewController.swift */,
 				395E6B742108ECBA00B75D37 /* FormViewController.swift */,
+				395E6B762108ED8900B75D37 /* InviteViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				39BB9A4D210640D100376217 /* ViewController.swift in Sources */,
 				395E6B752108ECBA00B75D37 /* FormViewController.swift in Sources */,
 				39BB9A4B210640D100376217 /* AppDelegate.swift in Sources */,
+				395E6B772108ED8900B75D37 /* InviteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
