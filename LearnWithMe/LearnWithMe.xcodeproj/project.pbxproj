@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395E6B752108ECBA00B75D37 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E6B742108ECBA00B75D37 /* FormViewController.swift */; };
 		39BB9A4B210640D100376217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB9A4A210640D100376217 /* AppDelegate.swift */; };
 		39BB9A4D210640D100376217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB9A4C210640D100376217 /* ViewController.swift */; };
 		39BB9A50210640D100376217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB9A4E210640D100376217 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		395E6B742108ECBA00B75D37 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		39BB9A47210640D100376217 /* LearnWithMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnWithMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB9A4A210640D100376217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39BB9A4C210640D100376217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				39BB9A4C210640D100376217 /* ViewController.swift */,
+				395E6B742108ECBA00B75D37 /* FormViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				39BB9A53210640D100376217 /* LearnWithMe.xcdatamodeld in Sources */,
 				39BB9A4D210640D100376217 /* ViewController.swift in Sources */,
+				395E6B752108ECBA00B75D37 /* FormViewController.swift in Sources */,
 				39BB9A4B210640D100376217 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,7 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LearnWithMe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LearnWithMe/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,7 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LearnWithMe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LearnWithMe/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
