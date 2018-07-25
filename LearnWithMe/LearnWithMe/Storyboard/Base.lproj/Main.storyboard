@@ -107,18 +107,27 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="glA-Ar-KHJ">
-                                <rect key="frame" x="246" y="131" width="97" height="30"/>
+                                <rect key="frame" x="248" y="136" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyq-mF-IBo">
+                                <rect key="frame" x="283" y="617" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue"/>
+                                <connections>
+                                    <action selector="toInviteViewController:" destination="PgT-vm-NjV" eventType="touchUpInside" id="xcz-sc-hN1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="UbH-hH-Wdy"/>
                     </view>
                     <connections>
-                        <segue destination="lWl-TU-UqS" kind="show" identifier="segue" id="6Tx-XH-iB6"/>
+                        <outlet property="skillTextField" destination="glA-Ar-KHJ" id="bRA-6x-dv1"/>
+                        <segue destination="lWl-TU-UqS" kind="presentation" identifier="segue" id="OfR-6I-NfA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PSi-j5-pAd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -144,6 +153,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lha-rX-TgV"/>
                     </view>
+                    <connections>
+                        <outlet property="skillDisplayLabel" destination="fIO-qQ-PsU" id="sgz-2U-5nk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f01-DQ-M5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

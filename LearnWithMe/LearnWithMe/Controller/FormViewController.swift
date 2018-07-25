@@ -8,8 +8,9 @@
 
 import UIKit
 
-class FormViewController: UIViewController {
+class FormViewController: UIViewController{
 
+    var skillText = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +21,22 @@ class FormViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBOutlet weak var skillTextField: UITextField!
+    
+    
+    @IBAction func toInviteViewController(_ sender: Any) {
+        
+        self.skillText = skillTextField.text!
+        performSegue(withIdentifier: "segue", sender: self)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            var InviteVC = segue.destination as! InviteViewController
+            InviteVC.skillString = self.skillText
+    }
+    
     
 
     /*

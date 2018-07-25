@@ -9,11 +9,17 @@
 import UIKit
 
 class InviteViewController: UIViewController {
+    
+    
+    @IBOutlet weak var skillDisplayLabel: UILabel!
+    var skillString = String()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        skillDisplayLabel.text = skillString
 
-        // Do any additional setup after loading the view.
+
     }
 
     override func didReceiveMemoryWarning() {
