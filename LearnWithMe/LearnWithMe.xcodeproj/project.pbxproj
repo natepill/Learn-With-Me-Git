@@ -14,6 +14,7 @@
 		39BB9A50210640D100376217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB9A4E210640D100376217 /* Main.storyboard */; };
 		39BB9A53210640D100376217 /* LearnWithMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39BB9A51210640D100376217 /* LearnWithMe.xcdatamodeld */; };
 		39BB9A55210640D200376217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BB9A54210640D200376217 /* Assets.xcassets */; };
+		39C74093210A3942009FD066 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C74092210A3942009FD066 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		39BB9A52210640D100376217 /* LearnWithMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LearnWithMe.xcdatamodel; sourceTree = "<group>"; };
 		39BB9A54210640D200376217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39BB9A59210640D200376217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C74092210A3942009FD066 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				39BB9A4C210640D100376217 /* ViewController.swift */,
 				395E6B742108ECBA00B75D37 /* FormViewController.swift */,
 				395E6B762108ED8900B75D37 /* InviteViewController.swift */,
+				39C74092210A3942009FD066 /* CalendarViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C74093210A3942009FD066 /* CalendarViewController.swift in Sources */,
 				39BB9A53210640D100376217 /* LearnWithMe.xcdatamodeld in Sources */,
 				39BB9A4D210640D100376217 /* ViewController.swift in Sources */,
 				395E6B752108ECBA00B75D37 /* FormViewController.swift in Sources */,

@@ -26,19 +26,26 @@ class FormViewController: UIViewController{
     
     
     @IBAction func toInviteViewController(_ sender: Any) {
-        
         self.skillText = skillTextField.text!
         performSegue(withIdentifier: "segue", sender: self)
+    }
+    
+
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "segue"{
+            var InviteVC = segue.destination as! InviteViewController
+            InviteVC.skillString = self.skillText
+        }
         
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            var InviteVC = segue.destination as! InviteViewController
-            InviteVC.skillString = self.skillText
+    
+    @IBAction func toCalendarViewController(_ sender: Any) {
+        performSegue(withIdentifier: "toCalendar", sender: self)
     }
     
-    
-
     /*
     // MARK: - Navigation
 
